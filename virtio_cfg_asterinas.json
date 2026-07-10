@@ -1,0 +1,44 @@
+{
+    "zones": [
+        {
+            "id": 1,
+            "memory_region": [
+                {
+                    "zone0_ipa": "0x40300000",
+                    "zonex_ipa": "0x0",
+                    "size": "0x20000000"
+                },
+                {
+                    "zone0_ipa": "0x100000000",
+                    "zonex_ipa": "0x100000000",
+                    "size": "0x70000000"
+                }
+            ],
+            "devices": [
+                {
+                    "type": "console",
+                    "addr": "0x5950f000",
+                    "len": "0x200",
+                    "irq": 10,
+                    "status": "enable"
+                },
+                {
+                    "type": "blk",
+                    "addr": "0x5950f400",
+                    "len": "0x200",
+                    "irq": 11,
+                    "img": "asterinas-exfat.img",
+                    "status": "enable"
+                },
+                {
+                    "type": "blk",
+                    "addr": "0x5950f800",
+                    "len": "0x200",
+                    "irq": 12,
+                    "img": "asterinas-ext2.img",
+                    "status": "enable"
+                }
+            ]
+        }
+    ]
+}
