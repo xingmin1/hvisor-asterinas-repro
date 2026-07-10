@@ -8,4 +8,4 @@
 - `zone1_asterinas_boot_hello.json`：最小启动验证配置
 - `virtio_cfg_asterinas.json`：virtio-console 与块设备配置
 
-克隆本仓库后，请在仓库根目录执行构建与运行步骤。
+本仓库不包含构建产物、运行镜像或测试日志。
